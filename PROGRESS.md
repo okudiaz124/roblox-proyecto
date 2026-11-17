@@ -8,3 +8,9 @@
 - Claude Code 2.1.326 reconoció el servidor MCP de proyecto y lo marcó pendiente de aprobación. Claude revisó los criterios de ART-00 y devolvió su propuesta en la respuesta tras un rechazo de escritura. Codex incorporó los criterios acordes al alcance.
 - Pendientes la instalación y prueba del plugin Rojo en Studio, la conexión MCP de ambos clientes y el remoto privado de GitHub. La sesión de terminal recibió acceso denegado al crear la carpeta del plugin. El conector de GitHub reconoció la cuenta, y el repositorio propuesto aún no estaba accesible.
 - Idea del juego pendiente. El proyecto contiene la base de desarrollo para implementar el primer prototipo cuando llegue la descripción.
+
+### Publicación y verificación posterior
+
+- Base publicada en el repositorio público `okudiaz124/roblox-proyecto`. La rama local `main` sigue a `origin/main`.
+- Plugin oficial Rojo 7.7.1 instalado en el perfil de Roblox y verificado contra el SHA-256 de la publicación. El servidor local respondió en `127.0.0.1:34872`. Falta comprobar la sincronización desde el plugin en un lugar abierto.
+- Claude verificó por separado el plugin y el lugar compilado. El launcher oficial seguía ausente y su cliente MCP devolvió `Connection closed`. Codex recibió la inicialización del proxy, con un rechazo HTTP 401 en el puente y sin enumeración del lugar. Falta activar y verificar el servidor en el panel de Studio.
