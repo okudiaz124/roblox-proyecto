@@ -14,3 +14,9 @@
 - Base publicada en el repositorio público `okudiaz124/roblox-proyecto`. La rama local `main` sigue a `origin/main`.
 - Plugin oficial Rojo 7.7.1 instalado en el perfil de Roblox y verificado contra el SHA-256 de la publicación. El servidor local respondió en `127.0.0.1:34872`. Falta comprobar la sincronización desde el plugin en un lugar abierto.
 - Claude verificó por separado el plugin y el lugar compilado. El launcher oficial seguía ausente y su cliente MCP devolvió `Connection closed`. Codex recibió la inicialización del proxy, con un rechazo HTTP 401 en el puente y sin enumeración del lugar. Falta activar y verificar el servidor en el panel de Studio.
+
+### Studio MCP activo
+
+- El servidor MCP de Roblox Studio quedó habilitado. El proxy oficial devolvió 38 herramientas y listó `RobloxProyecto.rbxl` en modo Edit por JSON-RPC desde PowerShell.
+- Claude Code confirmó el mismo lugar mediante `list_roblox_studios` con la configuración MCP del repositorio cargada explícitamente. Fue una prueba de lectura.
+- Falta comprobar el servidor integrado en un chat de Codex y una actualización de archivo sincronizada por el plugin de Rojo.
