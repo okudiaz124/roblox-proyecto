@@ -14,6 +14,8 @@ Git conserva la fuente de trabajo. Rojo sincroniza los archivos hacia Studio. MC
 
 | Tarea | Archivo y ruta en Studio | Clases, nombres, tags y atributos | Dependencias y prueba |
 | --- | --- | --- | --- |
-| ART-01 | Pendiente | Pendiente | Pendiente |
+| ART-01 | `src/client/IntroAnimation.luau` | `create()` devuelve la carpeta local y `render(t)` devuelve la cámara en primera persona | Reproducir en Studio y verificar París, descenso, advertencia, derrumbe y desvío |
+
+`Opening.client.luau` controla los 35 segundos, los subtítulos, el fundido y la entrega del control. Los tiempos del arte son 0–8 llegada en París, 8–17 encuentro y descenso, 17–24 advertencia, 24–30 temblor y derrumbe, 30–35 vista del paso. `Catacombs.server.luau` crea el tramo que todos los jugadores pueden recorrer y su punto de aparición. `Flashlight.luau` añade la luz y su tarjeta en el cliente.
 
 Documenta el contrato de integración junto a la entrega, incluidas las señales o llamadas que usará el código, las propiedades esperadas y quién sigue. Los Asset IDs deben funcionar en la experiencia de destino. Verifica también cualquier recurso dependiente de Roblox que no viaje dentro del archivo de modelo.

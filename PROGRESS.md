@@ -25,3 +25,10 @@
 
 - Codex consultó directamente `RobloxProyecto.rbxl` por MCP en modo Edit. La conexión de Claude Code ya estaba verificada en la misma instancia.
 - Rojo sincronizó un ModuleScript temporal desde `src/shared` hasta `ReplicatedStorage.Shared`. Al mover el archivo fuera del árbol mapeado, el módulo desapareció de Studio. El archivo de prueba quedó fuera del repositorio.
+
+### Primera escena jugable
+
+- Claude entregó la planificación de cámara y actuación. Codex la llevó a Roblox Studio como una escena 3D de 35 segundos, con dos amistades, París al anochecer, descenso, advertencia, temblor y derrumbe. La narración se presenta en subtítulos.
+- El prototipo entrega el control en primera persona fija y arranca con la linterna encendida. La tarjeta propia muestra su nombre y estado, y responde a la acción de encender o apagar.
+- En Studio se verificaron la cinemática, el cambio a la cámara del jugador, el punto de vista orientado al pasillo, la tarjeta y el apagado por teclado. También se comprobó que el corredor principal queda bloqueado y el desvío a la galería del osario es transitable.
+- Próxima revisión visual: lectura del fondo de París, actuación de los personajes y sonido de la introducción.

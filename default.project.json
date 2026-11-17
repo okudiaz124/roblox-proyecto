@@ -44,6 +44,9 @@
     "StarterPlayer": {
       "$className": "StarterPlayer",
       "$ignoreUnknownInstances": true,
+        "$properties": {
+          "CameraMode": "LockFirstPerson"
+        },
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
         "$ignoreUnknownInstances": true,
