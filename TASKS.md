@@ -3,7 +3,7 @@
 | ID | Responsable | Estado | Entrega |
 | --- | --- | --- | --- |
 | ENT-01 | Codex | Hecha | Repositorio local, estructura Rojo, documentación y prompt |
-| ENT-02 | Codex | Pendiente | Verificar Rojo en Studio, MCP de ambos clientes y remoto compartido |
+| ENT-02 | Codex | Hecha | Rojo en Studio, MCP de ambos clientes y remoto compartido verificados |
 | ART-00 | Claude y Codex | Hecha | Criterios de revisión para escenario, modelos e interfaz |
 | DIS-01 | Usuario | Pendiente | Describir el concepto y la primera acción jugable |
 | ART-01 | Claude | Pendiente de DIS-01 | Propuesta visual, primer escenario y contrato de integración |

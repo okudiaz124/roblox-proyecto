@@ -20,3 +20,8 @@
 - El servidor MCP de Roblox Studio quedó habilitado. El proxy oficial devolvió 38 herramientas y listó `RobloxProyecto.rbxl` en modo Edit por JSON-RPC desde PowerShell.
 - Claude Code confirmó el mismo lugar mediante `list_roblox_studios` con la configuración MCP del repositorio cargada explícitamente. Fue una prueba de lectura.
 - Falta comprobar el servidor integrado en un chat de Codex y una actualización de archivo sincronizada por el plugin de Rojo.
+
+### Verificación final del entorno
+
+- Codex consultó directamente `RobloxProyecto.rbxl` por MCP en modo Edit. La conexión de Claude Code ya estaba verificada en la misma instancia.
+- Rojo sincronizó un ModuleScript temporal desde `src/shared` hasta `ReplicatedStorage.Shared`. Al mover el archivo fuera del árbol mapeado, el módulo desapareció de Studio. El archivo de prueba quedó fuera del repositorio.
