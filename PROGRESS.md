@@ -32,3 +32,18 @@
 - El prototipo entrega el control en primera persona fija y arranca con la linterna encendida. La tarjeta propia muestra su nombre y estado, y responde a la acción de encender o apagar.
 - En Studio se verificaron la cinemática, el cambio a la cámara del jugador, el punto de vista orientado al pasillo, la tarjeta y el apagado por teclado. También se comprobó que el corredor principal queda bloqueado y el desvío a la galería del osario es transitable.
 - Próxima revisión visual: lectura del fondo de París, actuación de los personajes y sonido de la introducción.
+
+### Trabajo de arte y código en paralelo
+
+- Claude Sonnet creó el modelo y la ficha del cartel francés. Su sesión devolvió los archivos en texto por una restricción de escritura. Codex guardó esa entrega en la rama de arte y ajustó la serialización de colores para Rojo.
+- El cartel ya se coloca en el acceso lateral. Se verificó en Studio el pivote, los tres textos franceses, la calavera, el marco corroído y la ausencia de colisión.
+- Con **O**, el jugador puede desactivar los subtítulos y reducir el temblor de cámara. Se probaron ambos controles en Studio. La reducción conserva el derrumbe y sus efectos en el mundo.
+- La próxima entrega asignada a Claude es el exterior nocturno y el acceso por alcantarilla. Codex se encarga de la continuidad del mapa y la persistencia de los dos derrumbes.
+
+### Expedición jugable
+
+- París nocturno, alcantarilla y laberinto forman un mapa compartido. La introducción usa el guion de Claude con voz sintética en español y conserva los dos derrumbes al devolver el control. Las cuatro capas de ambiente cargaron y se reprodujeron en Studio.
+- El laberinto contiene 225 celdas, tres cámaras ocultas, cráneos procedurales, dos vendas y tres rubíes. Studio encontró rutas físicas desde la aparición hasta los seis objetivos, incluida la puerta.
+- En Play se activó la aparición del Hombre Cerdo y se confirmó su MeshPart, la persecución y la búsqueda. También se recogió y consumió una venda, se recuperaron los tres rubíes con entradas del jugador y se comprobó que la puerta se eleva y permite cruzar.
+- Se ejecutó una simulación de dos clientes de Studio. Ambos recibieron el mismo estado compartido de vendas, mantuvieron la primera persona y vieron la misma cuadrícula de 225 celdas. El recorrido de recursos se comprobó por separado en Play.
+- La compilación local es `build/Catacumbas-Expedicion.rbxl`. Para la publicación de la experiencia, consulta los requisitos de mallas y el cuestionario de madurez en [ASSET_PIPELINE.md](ASSET_PIPELINE.md).

@@ -17,4 +17,6 @@ Cuando haya remotos, define su esquema, valida en servidor tipo, rango, permisos
 
 Valida cada cambio con `rojo build` y una prueba acorde al comportamiento. Al añadir red, prueba en Studio con servidor y al menos dos clientes, incluyendo entradas inválidas y salida de un jugador. Verifica el Output y registra lo probado en [PROGRESS.md](PROGRESS.md).
 
-El prototipo de catacumbas crea el mapa y el punto de aparición en el servidor. Cada cliente reproduce su propia introducción una vez por sesión de juego, con actores y decorado locales. El personaje aparece en el recorrido jugable desde el inicio y el cliente cede la cámara tras el fundido. La linterna y su interfaz se mantienen locales en esta etapa.
+El servidor crea la calle, la alcantarilla, el túnel inicial, los dos derrumbes y el laberinto. Cada cliente reproduce la introducción una vez, con actores, partículas y cámara locales sobre la misma geometría que usa el juego. El punto de aparición coincide con la entrega del control. Las rocas estáticas quedan en el servidor y el cliente revela cada grupo a su marca de tiempo.
+
+`Shared.Expedition` replica la fase, el inventario compartido, el contador de rubíes, el estado de la puerta y la criatura. El servidor valida alcance, línea de visión y estado para recoger objetos. Los clientes presentan subtítulos, música, ajustes y cinemáticas. El laberinto usa una red conectada de 225 celdas con enlaces adicionales y tres cámaras ocultas. La criatura se mueve de nodo a nodo con visión, audición y memoria limitada.

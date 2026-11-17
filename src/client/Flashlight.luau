@@ -24,7 +24,7 @@ local function label(parent: Instance, name: string, size: UDim2, position: UDim
 	return result
 end
 
-function Flashlight.mount(gui: ScreenGui)
+function Flashlight.mount(gui: ScreenGui, options: { effects: boolean })
 	local card = Instance.new("TextButton")
 	card.Name = "FlashlightSlot"
 	card.AnchorPoint = Vector2.new(0.5, 1)
@@ -163,6 +163,7 @@ function Flashlight.mount(gui: ScreenGui)
 	RunService:BindToRenderStep("CatacombsFlashlight", Enum.RenderPriority.Camera.Value + 1, function()
 		local camera = Workspace.CurrentCamera
 		if not camera then return end
+		if beam.Shadows ~= options.effects then beam.Shadows = options.effects end
 		model.Parent = camera
 		local view = camera.CFrame
 		emitter.CFrame = view * CFrame.new(0.04, -0.04, -0.35)

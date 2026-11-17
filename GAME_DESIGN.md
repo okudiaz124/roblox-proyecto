@@ -1,7 +1,9 @@
 # Diseño del juego
 
-El jugador se une a dos amistades que quieren explorar las catacumbas de París. La introducción muestra la ciudad al anochecer desde los ojos del jugador y acompaña al grupo al bajar con un guía. El guía relata la desaparición de una cuadrilla y advierte de un arco marcado con tres rayas. Un temblor lo sepulta y cierra la ruta prevista. El grupo tiene que desviarse por una abertura que no estaba en el mapa.
+El [plan de producción](ROADMAP.md) contiene la dirección artística y los criterios de aceptación. La expedición jugable comienza de noche en París con Hikari, Matthew y el guía. El grupo baja por una alcantarilla, oye el relato y pasa por dos derrumbes. La entrada a la zona prohibida se convierte en su única ruta.
 
-Al terminar la escena, el jugador controla su personaje en primera persona fija. Sale con una sola herramienta, una linterna ya encendida. Puede alternar su luz con **1**, **F**, **X** en mando o tocando la tarjeta **LINTERNA**. El objetivo del primer recorrido es encontrar la abertura lateral y seguirla hasta la galería del osario.
+El jugador conserva la perspectiva en primera persona durante la introducción, el control libre y la aparición del Hombre Cerdo. La linterna comienza encendida y alumbra desde la cámara. La introducción ocupa unos tres minutos y reserva más de un minuto para el guía.
 
-El prototipo cubre la introducción y ese tramo. La historia del arco, el diálogo, los nombres Inés y Leo y la duración de 35 segundos son decisiones de esta primera versión. Las condiciones del resto de la expedición, la modalidad final y el título siguen pendientes.
+En el laberinto, el grupo busca la puerta del osario. Leer la inscripción activa la primera aparición del Hombre Cerdo. Luego se recuperan tres rubíes y se regresa a la puerta. La criatura patrulla, oye pasos, investiga y persigue si detecta a alguien. Las dos vendas de los altares se comparten durante la partida. Cada una restaura hasta 35 puntos de salud.
+
+Usa **E** para interactuar, **H** para curarte con una venda del grupo, **1** o **F** para alternar la linterna y **O** para los ajustes. Abrir la puerta da acceso a otra cámara subterránea como continuación de la historia.

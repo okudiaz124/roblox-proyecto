@@ -16,6 +16,8 @@ Git conserva la fuente de trabajo. Rojo sincroniza los archivos hacia Studio. MC
 | --- | --- | --- | --- |
 | ART-01 | `src/client/IntroAnimation.luau` | `create()` devuelve la carpeta local y `render(t)` devuelve la cámara en primera persona | Reproducir en Studio y verificar París, descenso, advertencia, derrumbe y desvío |
 
-`Opening.client.luau` controla los 35 segundos, los subtítulos, el fundido y la entrega del control. Los tiempos del arte son 0–8 llegada en París, 8–17 encuentro y descenso, 17–24 advertencia, 24–30 temblor y derrumbe, 30–35 vista del paso. `Catacombs.server.luau` crea el tramo que todos los jugadores pueden recorrer y su punto de aparición. `Flashlight.luau` añade la luz y su tarjeta en el cliente.
+`Opening.client.luau` compone la introducción con `Shared.Dialogue` y `Shared.Location`. La calle y el pasaje compartido nacen en `ParisScenery.luau`. Para cambiar la duración o colocar derrumbes, conserva las marcas de la cámara, las posiciones, los bloques persistentes y el punto de entrega del control.
+
+`Catacombs.server.luau` coloca el cartel, genera la partida y arbitra sus interacciones. `Maze.luau` genera la geometría y la red de navegación. `Hunter.luau` controla la animación procedural, la detección y las vocalizaciones. `Sculptures.luau` genera las mallas del cráneo y la máscara. Consulta [la preparación para publicar](ASSET_PIPELINE.md) para la opción de mallas.
 
 Documenta el contrato de integración junto a la entrega, incluidas las señales o llamadas que usará el código, las propiedades esperadas y quién sigue. Los Asset IDs deben funcionar en la experiencia de destino. Verifica también cualquier recurso dependiente de Roblox que no viaje dentro del archivo de modelo.

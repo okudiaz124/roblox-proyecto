@@ -1,6 +1,6 @@
 # Dirección visual
 
-París al anochecer se reconoce por los tejados de mansarda, los faroles y la silueta de la torre Eiffel. La entrada corta esa vista y da paso a piedra húmeda, pasillos estrechos, lámparas ámbar y zonas que el jugador debe alumbrar. La primera persona mantiene la escala de los cuerpos y los túneles desde la altura de los ojos.
+París de noche se reconoce por los tejados de mansarda, los faroles y la silueta de la torre Eiffel. La alcantarilla corta esa vista y da paso a piedra húmeda, pasillos estrechos, lámparas ámbar y zonas que el jugador debe alumbrar. La primera persona mantiene la escala de los cuerpos y los túneles desde la altura de los ojos. La máscara del Hombre Cerdo usa hocico, orejas, cavidades y piel envejecida para distinguirse en silueta.
 
 El derrumbe comunica el peligro mediante movimiento, oscuridad y escombros que ocultan al guía. La iluminación de emergencia orienta hacia el paso lateral. La interfaz de linterna usa un panel pequeño y oscuro con el nombre grande, el botón correspondiente al dispositivo y el estado de la luz. DOORS sirve como referencia de claridad para el acceso al utensilio dentro de un juego de terror. [DOORS, de LSPLASH](https://www.roblox.com/games/6516141723/DOORS).
 
