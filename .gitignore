@@ -1,0 +1,8 @@
+/build/
+/.tools/
+/.claude/settings.local.json
+*.local.rbxl
+*.local.rbxlx
+*.lock.rbxl
+/.env
+/.env.*

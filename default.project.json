@@ -1,0 +1,70 @@
+{
+  "name": "RobloxProyecto",
+  "serveAddress": "127.0.0.1",
+  "servePort": 34872,
+  "tree": {
+    "$className": "DataModel",
+    "$ignoreUnknownInstances": true,
+    "Workspace": {
+      "$className": "Workspace",
+      "$ignoreUnknownInstances": true,
+      "World": {
+        "$className": "Folder",
+        "$path": "src/world",
+        "$ignoreUnknownInstances": false
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "Shared": {
+        "$className": "Folder",
+        "$path": "src/shared",
+        "$ignoreUnknownInstances": false
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "Server": {
+        "$className": "Folder",
+        "$path": "src/server",
+        "$ignoreUnknownInstances": false
+      }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "GameAssets": {
+        "$className": "Folder",
+        "$path": "src/server-assets",
+        "$ignoreUnknownInstances": false
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "Client": {
+          "$className": "Folder",
+          "$path": "src/client",
+          "$ignoreUnknownInstances": false
+        }
+      }
+    },
+    "StarterGui": {
+      "$className": "StarterGui",
+      "$ignoreUnknownInstances": true,
+      "GameUI": {
+        "$className": "ScreenGui",
+        "$path": "src/ui",
+        "$properties": {
+          "ResetOnSpawn": false
+        },
+        "$ignoreUnknownInstances": false
+      }
+    }
+  }
+}
